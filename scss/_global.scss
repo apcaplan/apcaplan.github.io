@@ -5,6 +5,11 @@ html {
   height: 100%;
 }
 
+.pic {
+  margin: 1rem;
+  padding: 1rem;
+}
+
 // Typography
 .text-white-75 {
   color: fade-out($white, .25);
