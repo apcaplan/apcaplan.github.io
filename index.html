@@ -23,6 +23,12 @@
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.min.css" rel="stylesheet">
 
+  <!-- Plugin animate.css -->
+  <link rel="stylesheet" href="animate.min.css">
+
+  <!-- Plugin wow.js -->
+  <!-- <link rel="stylesheet" href="css/animate.css"> -->
+
 </head>
 
 <body id="page-top">
@@ -57,9 +63,11 @@
   <header class="masthead">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Adam Caplan</h1>
-          <hr class="divider my-4">
+        <div class="animated rotateIn">
+          <div class="col-lg-10 align-self-end">
+            <h1 class="text-uppercase text-white font-weight-bold animated jackInTheBox slower">Adam Caplan</h1>
+            <hr class="divider my-4">
+          </div>
         </div>
         <div class="col-lg-8 align-self-baseline">
           <p class="text-white-75 font-weight-light mb-5">full-stack web developer | software engineer | holistic, yogic approach</p>
@@ -298,7 +306,7 @@
         <div class="row h-100 justify-content-center align-items-center m-4">
         <div class="col-lg-5 col-sm-5">
           <a class="portfolio-box" href="https://namast-ai.github.io/RESTaurant-client/" target="_blank">
-            <img class="img-fluid" src="img/portfolio/RESTaurant.png" alt="RESTaurant app photo">
+            <img class="img-fluid" src="img/portfolio/RESTaurant photo.png" alt="RESTaurant app photo">
             <div class="portfolio-box-caption">
               <div class="project-name">
                 RESTaurant Inventory Application
@@ -318,14 +326,21 @@
           </a>
         </div>
         <div class="col-lg-5 col-sm-5">
-          <a class="portfolio-box" href="" target="_blank">
-            <img class="img-fluid" src="" alt="">
-            <div class="portfolio-box-caption p-3">
+            <a class="portfolio-box" href="https://github.com/apcaplan/sun-salutations-client" target="_blank">
+            <img class="img-fluid" src="img/portfolio/SunSalutationApp.png" alt="Sun Salutations Tracker photo">
+            <div class="portfolio-box-caption">
               <div class="project-name">
-                Project Four:
+                Sun Salutations Tracker
               </div>
               <div class="project-category text-white-50">
-                Capstone
+                a responsive, user-friendly app that provides an easy way provide an easy
+                way to learn sun salutations, count rounds during practice, and record and track progress.
+                <br>
+                <br>
+                Technologies used:
+                <br>
+                React, CSS3/SASS, Material-ui, Ruby on Rails, PostgreSQL
+              </div>
               </div>
             </div>
           </a>
@@ -354,17 +369,16 @@
       </div>
       <div class="row">
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (617) 855-5188</div>
+          <i class="fab fa-github-square fa-3x mb-3 text-muted"></i>
+          <a class="d-block" href="https://github.com/apcaplan">GitHub</a>
         </div>
         <div class="col-lg-4 text-center mb-5 mb-lg-0">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <a class="d-block" href="apcaplan at gmail.com">apcaplan@gmail.com</a>
+        </div>
+        <div class="col-lg-4 mr-auto text-center mb-5 mb-lg-0">
           <i class="fab fa-linkedin fa-3x mb-3 text-muted"></i>
           <a class="d-block" href="https://www.linkedin.com/in/apcaplan/">LinkedIn</a>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="apcaplan@gmail.com">apcaplan@gmail.com</a>
         </div>
       </div>
     </div>
@@ -387,6 +401,15 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
+
+  <!-- Wow.js scripts -->
+  <!-- <script src=“node_modules/wowjs/dist/wow.min.js”></script> -->
+
+  <!-- <script>
+
+  new WOW().init();
+
+  </script> -->
 
 </body>
 

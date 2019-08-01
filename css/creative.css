@@ -10674,9 +10674,9 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  /* background-image: url("../img/Sunset.jpg"); */
-  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/Sunset.jpg"); */
-  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/Sunset.jpg"); */
+  /* background-image: url("../img/Sunset.jpeg"); */
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/Sunset.jpeg"); */
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/Sunset.jpeg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
