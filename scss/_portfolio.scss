@@ -40,5 +40,38 @@
         }
       }
     }
+  .portfolio-caption {
+    // background-color: $dark;
+    color: $primary;
+    // max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    h4{
+      margin: 0;
+      text-transform: none;
+    }
+    p{
+      font-size: 16px;
+      font-style: italic;
+      margin: 0;
+    }
   }
+  }
+
+@media (min-width: 300px) {
+  .portfolio-box-caption{
+    font-size: 1em;
+    height: 50%;
+    width: 50%;
+  }
+}
+
+@media (min-width: 500px) {
+  .portfolio-box-caption{
+    font-size: 4em;
+    height: 75%;
+    width: 75%;
+  }
+}
 }
