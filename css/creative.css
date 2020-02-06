@@ -10729,6 +10729,10 @@ header.masthead p {
   }
 }
 
+#portfolio {
+  background-color: #cfd6dd;
+}
+
 #portfolio .container-fluid {
   max-width: 1920px;
   margin: 15px 15px 0;
