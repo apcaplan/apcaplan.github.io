@@ -10753,7 +10753,7 @@ header.masthead p {
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
   width: 100%;
-  height: 100%;
+  height: 250px;
   position: absolute;
   bottom: 0;
   text-align: center;
