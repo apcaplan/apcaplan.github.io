@@ -10732,7 +10732,6 @@ header.masthead p {
 #portfolio .container-fluid {
   max-width: 1920px;
   margin: 15px 15px 0;
-  margin: 15px 15px 0;
 }
 
 #portfolio .container-fluid .row {
@@ -10745,11 +10744,11 @@ header.masthead p {
   position: relative;
   display: block;
   margin: 0 auto;
+  max-width: 75%;
 }
 
 #portfolio .container-fluid .portfolio-box img {
-  height: 244px;
-  width: 90%;
+  height: 250px;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
@@ -10784,7 +10783,7 @@ header.masthead p {
 #portfolio .container-fluid .portfolio-caption {
   color: #ff8b34;
   margin: 0 auto;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -10800,11 +10799,11 @@ header.masthead p {
 }
 
 #portfolio .p-left {
-  margin: 0 15px 15px 0;
+  margin: 0 2px 15px 0;
 }
 
 #portfolio .p-right {
-  margin: 0 0 15px 15px;
+  margin: 0 0 15px 2px;
 }
 
 @media (min-width: 300px) {
