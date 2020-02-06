@@ -10731,6 +10731,8 @@ header.masthead p {
 
 #portfolio .container-fluid {
   max-width: 1920px;
+  margin: 15px 15px 0;
+  margin: 15px 15px 0;
 }
 
 #portfolio .container-fluid .row {
@@ -10795,6 +10797,14 @@ header.masthead p {
   font-size: 16px;
   font-style: italic;
   margin: 0;
+}
+
+#portfolio .p-left {
+  margin: 0 15px 15px 0;
+}
+
+#portfolio .p-right {
+  margin: 0 0 15px 15px;
 }
 
 @media (min-width: 300px) {
